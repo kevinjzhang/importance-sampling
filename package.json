@@ -1,0 +1,39 @@
+{
+  "name": "dragonball",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview",
+    "test-issea": "node src/test-issea.js"
+  },
+  "dependencies": {
+    "@geo-maps/earth-seas-10m": "^0.6.0",
+    "@jetblack/map": "^2.0.2-alpha.1",
+    "cobe": "^0.6.3",
+    "fs": "^0.0.1-security",
+    "geojson-geometries-lookup": "^0.5.0",
+    "is-sea": "^0.3.1",
+    "load-json-file": "^7.0.1",
+    "react": "^18.2.0",
+    "react-awesome-button": "^7.0.5",
+    "react-dom": "^18.2.0",
+    "react-loader-spinner": "^6.1.6",
+    "react-simple-maps": "^3.0.0",
+    "react-spring": "^9.7.3"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.64",
+    "@types/react-dom": "^18.2.21",
+    "@vitejs/plugin-react": "^4.2.1",
+    "eslint": "^8.57.0",
+    "eslint-plugin-react": "^7.34.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.5",
+    "prettier": "3.2.5",
+    "vite": "^5.1.6"
+  }
+}
